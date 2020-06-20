@@ -1,0 +1,142 @@
+body{
+    background-color: #eeeeee;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* Tela */
+div#corpo{
+    margin: auto;
+    padding: 10px;
+    background-color:white;
+    width: 900px;
+    height: 2000px;
+    border-radius: 10px;
+    text-align: justify;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0.5);
+}
+/* Menu*/
+nav#menur{
+    display: block;
+    padding: 10px;
+}
+.menu{
+    position: absolute;
+    list-style:none; 
+    float: left; 
+    margin: 2px;
+}
+.menu li{
+    position: relative; 
+    float: left; 
+    border-right:1px solid black; 
+}
+.menu li a{
+    color:green; 
+    text-decoration:none; 
+    padding: 5px; 
+    display:block;
+} 
+.menu li a:hover{
+    background: gray; 
+    color:#fff; 
+    text-shadow:0px 0px 5px #fff; 
+}
+.menu li  ul{
+    position: absolute; 
+    top:25px; 
+    left:0;
+    background-color:#fff; 
+    display:none;
+}
+.menu li:hover ul, .menu li.over ul{
+    display:block;
+}
+.menu li ul li{
+    display:block; 
+    width:150px;
+}
+/* Estrutura valida para Todos*/
+h1{
+    padding: 10px;
+    text-align: center;
+}
+h2{
+    text-align: justify;
+    color: gray;
+}
+h3{
+    color: darkgrey;
+    text-align: justify;
+}
+p{
+    color: black;
+    text-align: justify;
+    font-size: 20px;
+}
+a{
+    color: green;
+}
+a:hover{
+    color: gray;
+}
+
+/* Divição da tela Lado Esquerdo*/
+section#esquerda{
+    width: 570px;
+    float: left;
+    text-align: center;
+    padding: 5px;
+}
+/* Sobre Python; Lado Esquerdo*/
+div#py{
+    border-radius: 10px;
+    text-align: justify;
+    padding: 5px;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0.5);
+}
+/* Sobre Html; Lado Esquerdo*/
+div#html{
+    border-radius: 10px;
+    text-align: justify;
+    padding: 5px;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0.5);
+}
+div#html li{
+    color: black;
+    text-align: justify;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    size: 15px;
+}
+/* Sobre Java; Lado Esquerdo*/
+div#jar{
+    border-radius: 10PX;
+    text-align: justify;
+    padding: 5px;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0.5);
+}
+/* Divição da tela Lado Direito*/
+aside#direita{
+    width: 300px;
+    float: right;
+    text-align: center;
+    padding: 5px;
+}
+/* Area dos projetos; Lado Direito*/
+div#project{
+    border-radius: 10px;
+    text-align: justify;
+    padding: 10px;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0.5);
+}
+/* Area dos Dawnloads; Lado Direito*/
+div#download{
+    border-radius: 10px;
+    text-align: justify;
+    padding: 10px;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0.5);
+}
+div#Inf{
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0.5);
+    padding: 5px;
+}
