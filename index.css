@@ -1,7 +1,9 @@
 *{
     font-family: Georgia, 'Times New Roman', Times, serif
 }
-
+body {
+    background-color: rgb(211, 209, 209);
+}
 /* Tela */
 div#corpo{
     margin: auto;
@@ -66,7 +68,7 @@ h1{
 /* Modelos de site */
 .sitesEsquerdo {
     width: 370px;
-    height: 370px;
+    height: 490px;
     float: right;
     margin: 0px 0px 20px 0px;
     text-align: center;
@@ -74,18 +76,26 @@ h1{
     border-radius: 5px;
     box-shadow: 0px 0px 5px rgb(0,0,0,0.5);
 }
+.sitesEsquerdo img {
+    box-shadow: 0px 0px 5px rgb(0,0,0,0.5);
+    border-radius: 2px;
+}
 .sitesEsquerdo .enviar {
     width: 80px;
 }
 .sitesDireito {
     width: 370px;
-    height: 370px;
+    height: 490px;
     float: left;
     margin: 0px 0px 20px 0px;
     text-align: center;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0px 0px 5px rgb(0,0,0,0.5);
+}
+.sitesDireito img {
+    box-shadow: 0px 0px 5px rgb(0,0,0,0.5);   
+    border-radius: 2px; 
 }
 .sitesDireito .enviar {
     width: 80px;
