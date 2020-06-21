@@ -74,9 +74,6 @@ h1{
     border-radius: 5px;
     box-shadow: 0px 0px 5px rgb(0,0,0,0.5);
 }
-.sitesEsquedo input {
-    width: 300px;
-}
 .sitesEsquerdo .enviar {
     width: 80px;
 }
@@ -89,9 +86,6 @@ h1{
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0px 0px 5px rgb(0,0,0,0.5);
-}
-.sitesDireito input {
-    width: 300px;
 }
 .sitesDireito .enviar {
     width: 80px;
