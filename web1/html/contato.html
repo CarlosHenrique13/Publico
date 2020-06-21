@@ -5,8 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
     <link rel="stylesheet" href="../css/contato.css">
+    <script src="../js/contato.js"></script>
 </head>
 <body>
+    <div id="corpo">
+    <nav id="menur">
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="html/sobre.html">Sobre</a></li>
+                <li><a href="">Topicos</a>
+                    <ul>
+                        <li><a href="">Topico 01</a></li>
+                        <li><a href="">Topico 02</a></li>
+                        <li><a href="">Topico 03</a></li>                    
+                    </ul>
+                </li>
+            <li><a href="contato.html">Contato</a></li>                
+        </ul>
+    </nav>
     <h1>Contato</h1>
+    <form action="GET" id="formulario">
+        <p>Nome: <input type="text" id="name"></p>
+        <p>Gmail: <input type="email" name="gmail" id="gmail"></p>
+        <p>Mensagem: </p><p><textarea name="message" id="messade" cols="30" rows="10"></textarea></p>
+        <p><input type="submit" value="Enviar" id="Envia"></p>
+    </form>
+    </div>
 </body>
 </html>
