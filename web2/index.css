@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+div#corpo {
+    width: 900px;
+    margin: auto;
+    height: 900px;
+    padding: 10px;
+    float: center;
+    text-align: justify;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgb(0,0,0,0.5);
+}
+/* Menur */
+.menu{
+    list-style:none; 
+    float: right; 
+    margin: 2px;
+}
+.menu li{
+    position: relative; 
+    float: left; 
+    text-decoration: gray ;
+    border-right:1px solid black; 
+}
+.menu li a{
+    color:gray; 
+    text-decoration:none; 
+    padding: 5px; 
+    display:block;
+} 
+.menu li a:hover{
+    color: rgb(63, 60, 60); 
+    text-shadow:1px 1px 5px gray; 
+}
+.menu li  ul{
+    position: absolute; 
+    top:25px; 
+    left:0;
+    background-color:#fff; 
+    display:none;
+}
+.menu li:hover ul, .menu li.over ul{
+    display:block;
+}
+.menu li ul li{
+    display:block; 
+    width:150px;
+}
+/* Divisoes */ 
+div#Esquerda {
+    width: 200px;
+    float: left;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgb(0,0,0,0.5);
+}
+div#Direita {
+    width: 670px;
+    float: right;
+    padding: 5px;
+}
+/* Validos para todo o codigo */
+h1 {
+    text-align: center;
+}
+h2 {
+    color: gray;
+}
+p {
+    text-align: justify;
+}
+.link {
+    list-style:none;  
+}
+.link a {
+    font-weight: bolder;
+    color: rgb(132, 132, 226);
+}
+.link li{
+    list-style: none;
+    position: relative; 
+    float: left; 
+    text-decoration: gray ;
+}
+.link li  ul{
+    position: absolute; 
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    display:none;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgb(0,0,0,0.5);
+}
+.link li:hover ul, .menu li.over ul{
+    display:block;
+}
+.link li ul li{
+    display:block; 
+    width:150px;
+}
