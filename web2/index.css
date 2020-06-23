@@ -6,7 +6,7 @@ body {
 div#corpo {
     width: 900px;
     margin: auto;
-    height: 900px;
+    height: 1100px;
     padding: 10px;
     float: center;
     text-align: justify;
@@ -63,6 +63,9 @@ div#Direita {
     float: right;
     padding: 5px;
 }
+div#Contato {
+    float: right;
+}
 /* Validos para todo o codigo */
 h1 {
     text-align: center;
@@ -73,14 +76,17 @@ h2 {
 p {
     text-align: justify;
 }
-<<<<<<< Updated up stream
+footer {
+    border-style: 5px black solid ;
+}
 /* Classes */
 .Rodape {
+    text-align: center;
     margin-right: 100px;
     float: left;
 }
 .Rodape caption {
-    size: 18px;
+    size: 20px;
     color: purple;
-    
+    font-weight: bolder;
 }
