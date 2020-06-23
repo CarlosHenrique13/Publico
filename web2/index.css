@@ -72,33 +72,4 @@ h2 {
 p {
     text-align: justify;
 }
-.link {
-    list-style:none;  
-}
-.link a {
-    font-weight: bolder;
-    color: rgb(132, 132, 226);
-}
-.link li{
-    list-style: none;
-    position: relative; 
-    float: left; 
-    text-decoration: gray ;
-}
-.link li  ul{
-    position: absolute; 
-    width: 150px;
-    height: auto;
-    padding: 10px;
-    display:none;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 1px 1px 3px rgb(0,0,0,0.5);
-}
-.link li:hover ul, .menu li.over ul{
-    display:block;
-}
-.link li ul li{
-    display:block; 
-    width:150px;
-}
+

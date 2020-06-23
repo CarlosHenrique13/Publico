@@ -1,1 +1,102 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+body {
+    background-color: rgb(211, 209, 209);
+}
+/* Tela */
+div#corpo{
+    margin: auto;
+    padding: 10px;
+    background-color:white;
+    width: 800px;
+    height: 3000px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: justify;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0.5);
+    
+}
+/* Menu*/
+nav#menur{
+    display: block;
+    padding: 10px;
+    float: right; 
 
+}
+.menu{
+    list-style:none; 
+    float: left; 
+    margin: 2px;
+}
+.menu li{
+    position: relative; 
+    float: left; 
+    border-right:1px solid black; 
+}
+.menu li a{
+    color:purple; 
+    text-decoration:none; 
+    padding: 5px; 
+    display:block;
+} 
+.menu li a:hover{
+    background: rgb(199, 133, 229); 
+    color: purple; 
+    text-shadow:1px 1px 5px purple; 
+}
+.menu li  ul{
+    position: absolute; 
+    top:25px; 
+    left:0;
+    background-color:#fff; 
+    display:none;
+}
+.menu li:hover ul, .menu li.over ul{
+    display:block;
+}
+.menu li ul li{
+    display:block; 
+    width:150px;
+}
+/* Vlido pra Todos */
+h1{
+    text-align: center;
+    color: purple;
+    text-shadow: 1px 2px 3px purple;
+}
+/* Modelos de site */
+.sitesEsquerdo {
+    width: 370px;
+    height: 490px;
+    float: right;
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(0,0,0,0.5);
+}
+.sitesEsquerdo img {
+    box-shadow: 0px 0px 5px rgb(0,0,0,0.5);
+    border-radius: 2px;
+}
+.sitesEsquerdo .enviar {
+    width: 80px;
+}
+.sitesDireito {
+    width: 370px;
+    height: 490px;
+    float: left;
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgb(0,0,0,0.5);
+}
+.sitesDireito img {
+    box-shadow: 0px 0px 5px rgb(0,0,0,0.5);   
+    border-radius: 2px; 
+}
+.sitesDireito .enviar {
+    width: 80px;
+}
