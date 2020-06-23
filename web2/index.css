@@ -6,7 +6,7 @@ body {
 div#corpo {
     width: 900px;
     margin: auto;
-    height: 1100px;
+    height: 1080px;
     padding: 10px;
     float: center;
     text-align: justify;
@@ -63,9 +63,6 @@ div#Direita {
     float: right;
     padding: 5px;
 }
-div#Contato {
-    float: right;
-}
 /* Validos para todo o codigo */
 h1 {
     text-align: center;
@@ -77,13 +74,24 @@ p {
     text-align: justify;
 }
 footer {
-    border-style: 5px black solid ;
+    margin-block-end: 1px;
+    border-bottom: black 1px solid;
+    width: 880px;
+    background-color: rgba(189, 189, 189, 0.329);
+    padding: 10px;
+    box-shadow: 1px 1px 3px rgb(0,0,0,0.5);
+    float: right;
+}
+
+footer div#Contato {
+    float: left;
 }
 /* Classes */
 .Rodape {
     text-align: center;
-    margin-right: 100px;
-    float: left;
+    margin-left: 50px;
+    float: right;
+    border-bottom: black 1px solid;
 }
 .Rodape caption {
     size: 20px;
