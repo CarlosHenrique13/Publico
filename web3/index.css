@@ -1,3 +1,28 @@
+/* Estruturas */
 body {
-    
+    background-color: #EEEEEE;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div#Corpo {
+    width: 900px;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+}
+/* Divisoes */
+div#Centro {
+    position: relative;
+    width: 200px;
+    margin:left;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px rgb(0,0,0,0.5);
+}
+/* Validos Para todos*/
+h1 {
+    text-align: center;
+}
+p {
+    color: black;
+    text-shadow: 1px 1px 1px black;
 }
