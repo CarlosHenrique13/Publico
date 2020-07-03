@@ -1,8 +1,7 @@
 
 
-
+/* Alterna 5 div entre elas proprias */
 function mostra_oculta(){
-    
     var div1 = document.getElementById("secao-01");
     var div2 = document.getElementById("secao-02");
     var div3 = document.getElementById("secao-03");
