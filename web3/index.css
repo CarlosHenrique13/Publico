@@ -7,7 +7,6 @@ div#corpo {
     position: relative;
     width: 900px;
     margin: auto;
-    height: 800px;
     padding: 10px;
     box-shadow: 0px 0px 3px rgb(0,0,0,0.5);
 }
@@ -25,19 +24,15 @@ menu#navegador li {
     float: left;
 }
 /* Divisão da pagina*/
-div#direita {
-    float: left;
-    width: 280px;
-    height: 500px;  
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid black;
-    box-shadow: 1px 1px 3px rgb(0,0,0,0.5);
+section {
+    width: 290px;
+    float:left;
+    border-right: 1px solid black;
 }
-div#esquerda {
-    width: 570px;
-    padding: 5px;
-    float: right;
+aside {
+    width: 580px;
+    padding: 10px;
+    float: left;
 }
 /* Validação para todos */
 h1 {
@@ -48,6 +43,10 @@ h2 {
 }
 p {
     size: 15px;
+}
+iframe {
+    width: 250px;
+    height: 180px;
 }
 /* Part Rotatoria */
 div#secao-01 {
@@ -83,8 +82,43 @@ div#butao {
     width: 80px;
     margin: auto;
 }
-div#butao button {
-    width: 80px;
-    height: 62px;
-    background-image: url("butao.jpg");
+/* Tabela */
+table {
+    text-align: center;
+    margin: auto;
+    size: 25px;
+    
 }
+table caption {
+    color: rgb(122, 122, 233);
+    font-weight: bolder;
+}
+.opc {
+    background-color: rgb(175, 175, 235);
+    font-weight: bolder;
+}
+table tr {
+    border-top: 1px solid black;
+    padding: 10px;
+}
+table td {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+table td img{
+    width: 80px;
+    height: 80px;
+}
+
+table td img:hover{
+    width: 80px;
+    height: 80px;
+    transition: rgb(0,0,0,0.5);
+    background-color: rgb(0,0,0,0.5);
+}
+/* Rodape */
+footer {
+    text-align: center;
+    border-top:1px solid black;
+}
+
