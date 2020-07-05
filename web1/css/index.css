@@ -9,7 +9,7 @@ div#corpo{
     background-color:white;
     width: 900px;
     border-radius: 10px;
-    text-align: justify;
+    text-align: center;
     box-shadow: 5px 5px 10px rgb(0, 0, 0.5);
 }
 /* Menu*/
@@ -18,7 +18,7 @@ nav#menur{
     padding: 10px;
 }
 .menu{
-    position: absolute;
+    position: relative;
     list-style:none; 
     float: left; 
     margin: 2px;
@@ -130,21 +130,19 @@ div#project{
 }
 /* Area dos Dawnloads; Lado Direito*/
 div#download{
-    height: 1260px;
+    height: 1265px;
     border-radius: 10px;
     text-align: justify;
     padding: 10px;
     box-shadow: 3px 3px 10px rgb(0, 0, 0.5);
 }
 footer {
+    margin: auto;
     text-align: center;
     padding: 10px;  
 }
 footer div#rodape {
-
     padding: 10px;
-    margin-top: 1540px;
-    border-radius: 10px;
-    background-color: white;
-    box-shadow: 3px 3px 10px rgb(0, 0, 0.5);
+    margin: auto;
+    text-align: center;
 }
