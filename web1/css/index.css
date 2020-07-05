@@ -130,7 +130,6 @@ div#project{
 }
 /* Area dos Dawnloads; Lado Direito*/
 div#download{
-    height: 1265px;
     border-radius: 10px;
     text-align: justify;
     padding: 10px;
