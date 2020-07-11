@@ -6,7 +6,6 @@ body {
 div#corpo {
     width: 900px;
     margin: auto;
-    height: 1080px;
     padding: 10px;
     float: center;
     text-align: justify;
@@ -72,6 +71,10 @@ h2 {
 }
 p {
     text-align: justify;
+}
+img {
+    width: 100px;
+    height: 100px;
 }
 footer {
     margin-block-end: 1px;
