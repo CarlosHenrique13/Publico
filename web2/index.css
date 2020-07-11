@@ -9,7 +9,9 @@ div#corpo {
     padding: 10px;
     float: center;
     text-align: justify;
-    background-color: white;
+    background-image: url("img/fundo.jfif");
+    font-weight: bold;
+    size: 20px;
     box-shadow: 1px 1px 3px rgb(0,0,0,0.5);
 }
 /* Menur */
@@ -38,7 +40,6 @@ div#corpo {
     position: absolute; 
     top:25px; 
     left:0;
-    background-color:#fff; 
     display:none;
 }
 .menu li:hover ul, .menu li.over ul{
@@ -67,7 +68,7 @@ h1 {
     text-align: center;
 }
 h2 {
-    color: gray;
+    color: rgb(51, 47, 47);
 }
 p {
     text-align: justify;
@@ -77,7 +78,7 @@ img {
     height: 100px;
 }
 a {
-    color: gray;
+    color: rgb(255, 255, 255);
 }
 footer {
     margin-block-end: 1px;
