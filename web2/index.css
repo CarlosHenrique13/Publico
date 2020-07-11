@@ -76,6 +76,9 @@ img {
     width: 100px;
     height: 100px;
 }
+a {
+    color: gray;
+}
 footer {
     margin-block-end: 1px;
     border-bottom: black 1px solid;
