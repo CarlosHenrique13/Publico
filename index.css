@@ -66,37 +66,11 @@ h1{
     text-shadow: 1px 2px 3px purple;
 }
 /* Modelos de site */
-.sitesEsquerdo {
-    width: 370px;
-    height: 490px;
-    float: right;
-    margin: 0px 0px 20px 0px;
-    text-align: center;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 5px rgb(0,0,0,0.5);
-}
-.sitesEsquerdo img {
-    box-shadow: 0px 0px 5px rgb(0,0,0,0.5);
+div#img{
+    padding:5px;
     border-radius: 2px;
+    background-color: rgb(0, 0, 0.5);
 }
-.sitesEsquerdo .enviar {
-    width: 80px;
-}
-.sitesDireito {
-    width: 370px;
-    height: 490px;
-    float: left;
-    margin: 0px 0px 20px 0px;
-    text-align: center;
-    padding: 10px;
+.imagem {
     border-radius: 5px;
-    box-shadow: 0px 0px 5px rgb(0,0,0,0.5);
-}
-.sitesDireito img {
-    box-shadow: 0px 0px 5px rgb(0,0,0,0.5);   
-    border-radius: 2px; 
-}
-.sitesDireito .enviar {
-    width: 80px;
 }
