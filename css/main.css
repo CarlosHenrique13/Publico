@@ -4,6 +4,7 @@
 */
 
 body {
+    font-family: 'Source Sans Pro', sans-serif;
     background-color: #023436;
     --cor-fundo: #262c2e;
     --cor-letra: #ffffff;
@@ -11,10 +12,22 @@ body {
 }
 h1{
     color: var(--cor-titulo);
+    font-size: 40px;
+    font-family: 'Nerko One', cursive;
 }
+h2{
+    font-size: 30px;
+    font-family: 'Nerko One', cursive;
+
+}
+/* ============================
+    Criação dos Itens da loja
+   ============================
+*/
+
 .item{
-    width: 20%;
-    padding: 1%;
+    width: 18%;
+    padding: 2%;
     margin: 1%;
     position: relative;
     text-align: center;
@@ -23,7 +36,7 @@ h1{
     float: left;
 }
 .item:hover{
-    width: 21%;
+    width: 19%;
     box-shadow: 5px 5px #037971;
 }
 .item img{
@@ -47,12 +60,6 @@ h1{
     box-shadow: 3px 3px #037971;
 }
 
-/* ==============================
-    Redimensionamento de imagem
-   ==============================
-*/
-
-
 
 
 /* =====================
@@ -73,9 +80,17 @@ h1{
         height: 40%;
     }
     .item{
-        width:45%;
+        width:43%;
     }
     .item:hover{
-        width:46%;
+        width:44%;
     }
+}
+/* ==========
+    Riodape
+   ==========
+*/
+footer{
+    font-weight: bolder;
+    text-align: center;
 }
