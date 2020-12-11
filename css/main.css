@@ -9,39 +9,48 @@ body {
     --cor-letra: #ffffff;
     --cor-titulo: #ffffff;
 }
-section{
-    padding: 2%;
-}
-
 h1{
     color: var(--cor-titulo);
 }
+.item{
+    width: 20%;
+    padding: 1%;
+    margin: 1%;
+    position: relative;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #03B5AA;
+    float: left;
+}
+.item:hover{
+    width: 21%;
+    box-shadow: 5px 5px #037971;
+}
+.item img{
+    width: 90%;
+    border-radius: 5px;
+}
+.item img:hover{
+    width: 95%;
+    box-shadow: 5px 5px #037971;
+}
+.item a#btn{
+    text-decoration: none;
+    background-color: #023436;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+}
+.item a#btn:hover{
+    font-weight: bolder;
+    box-shadow: 3px 3px #037971;
+}
+
 /* ==============================
     Redimensionamento de imagem
    ==============================
 */
-div#teste{
-    width: 50%;
-    background-color: blue;
-}
-div#teste :hover{
-    box-shadow: 5px 5px red;
-}
-
-.object {
-    
-    padding: 5px;
-    margin: 1%;
-    float: left;
-    border-radius: 5px;
-    background-color: #03b5a99a;
-    background-color: blue;
-}
-.object :hover {
-
-    border: 2px  solid red;
-    box-shadow: 5px 5px #037971;
-}
 
 
 
@@ -63,5 +72,10 @@ div#teste :hover{
         width: 100%;
         height: 40%;
     }
-     
+    .item{
+        width:45%;
+    }
+    .item:hover{
+        width:46%;
+    }
 }
