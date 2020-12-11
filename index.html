@@ -1,44 +1,78 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Modelos</title>
-    <link rel="stylesheet" href="index.css">
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+   
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Minha Loja</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/main.css" >
+    <!-- Script JS -->
+    <script src="js/responsive-nav.js"></script>
+    <script src="js/index.js"></script>
+   
 </head>
 <body>
-    <div id="corpo">
-    <!--Menu-->
-    <nav id="menur">
-        <ul class="menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="html/sobre.html">Sobre</a></li>
-                <li><a href="">Topicos</a>
-                    <ul>
-                        <li><a href="">Topico 01</a></li>
-                        <li><a href="">Topico 02</a></li>
-                        <li><a href="">Topico 03</a></li>                    
-                    </ul>
-                </li>
-            <li><a href="html/contato.html">Contato</a></li>                
-        </ul>
-    </nav>
 
-    <!-- Corpo do site -->
-        <h1>Web Modelos Html</h1>
-        
-        <p>&nbsp;&nbsp;&nbsp;Todos os modelos são representação de sites criador por mim caso deseja cria um site ou compra o site que você viu no modelo e só entra em contato para efetuar a compra. Serra criador  o site de acordo com o modelo que escolher e só você cliente entra em contato para que comesse o projeto.</p>
-        <div id="img">
-            <a href="https://carloshenrique13.github.io/Publico/web1/"><img src="imgs/web1.png" alt="Naõ foi possivel carrega a imagem" class="imagem"></a>
-            <a href="https://carloshenrique13.github.io/Publico/web2/"><img src="imgs/web2.png" alt="Naõ foi possivel carrega a imagem" class="imagem"></a>
-            <a href="https://carloshenrique13.github.io/Publico/web3/"><img src="imgs/" alt="Erro na Imagem" class="imagem"></a -->
-        </div>
-        </br>
-        <footer>
-            <p>Criador: Carlos Henrique A. dos Santos</p>
-            <p>&copy;17/08/2020 a 2020</p>
-        </footer>
-    </div>
+    <!-- Menu -->
+    <header>
+      <a href="#home" class="logo" data-scroll>Minha Loja</a>
+      <nav class="nav-collapse">
+        <ul>
+          <li class="menu-item"><a href="carinho.html" data-scroll>Carinho</a></li>
+          <li class="menu-item"><a href="login.html" data-scroll>Login</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <!-- Seção Home -->
+    <section id="home" >
+      <h1>Bem Vindo</h1>
+
+      <div class="item">
+        <h2>Programação</h2>
+        <img src="img/web1.png" alt="Não foi posivel caregar.">
+        <p>Este e um site falando um pouco de programação com python,java e desenvovimento com html5</p>
+        <a id="btn" href="https://carloshenrique13.github.io/Publico/web1/">Visualizar</a>
+      </div>
+
+      <div class="item">
+        <h2></h2>
+        <img src="img/web1.png" alt="Não foi posivel caregar.">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut eos, aperiam quo ipsam veniam libero ad in vel! Minus adipisci odio quia iure doloribus deleniti a quo velit eveniet exercitationem!</p>
+        <a id="btn" href="">Visualizar</a>
+      </div>
+
+      <div class="item">
+        <h2></h2>
+        <img src="img/web1.png" alt="Não foi posivel caregar.">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut eos, aperiam quo ipsam veniam libero ad in vel! Minus adipisci odio quia iure doloribus deleniti a quo velit eveniet exercitationem!</p>
+        <a id="btn" href="">Visualizar</a>
+      </div>
+
+      <div class="item">
+        <h2></h2>
+        <img src="img/web1.png" alt="Não foi posivel caregar.">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut eos, aperiam quo ipsam veniam libero ad in vel! Minus adipisci odio quia iure doloribus deleniti a quo velit eveniet exercitationem!</p>
+        <a id="btn" href="">Visualizar</a>
+      </div>
+
+    </section>
     
+
+
+    <!-- Folder -->
+    <footer>
+      <p>&copy;Carlos Henrique A. dos Santos<br>17/08/2020 a 11/12/2020</p>
+    </footer>
+  
+
+    <!-- Scripts -->
+    <script src="js/fastclick.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/fixed-responsive-nav.js"></script>
 </body>
 </html>
