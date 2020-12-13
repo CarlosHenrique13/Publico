@@ -15,15 +15,17 @@
         background-color: white;
         margin: auto;
         margin-top: 9%;
+        /* PRODUTO */
        }.produto{
+         position: relative;
          width: 100%;
+         max-width: 1500px;
+         height: 1000px;
          color: black;
          margin: auto;
-         font-weight: bold;
-         border-radius: 5px;
-         box-shadow: 4px 4px #037971;
-         background-color: #03b5a957;
+         background-color: white;
        }
+       /* BARRA DE TITULO*/
        .produto div#title{
          color: white;
          margin-top: -9%;
@@ -32,7 +34,43 @@
          text-align: left;
          background-color: #00bfb3;
        }
+       /* BARRA FIM*/
+       .produto div#fim{
+         width: 100%;
+         height: 5%;
+         bottom: 0;
+         color: white;
+         font-weight: bold;
+         font-size: 20px;
+         text-align: right;
+         background-color: #00bfb3;
+
+         position: absolute;
+       }
+       /* OBJETOS */
+       .produto div#item{
+         width: 95%;
+         margin-bottom: 10%;
+         padding: 5px;
+         margin: 1% 2.5% 1% 2.5%;
+         text-align: left;
+         font-size: 20px;
+         font-weight: bold;
+         border-radius: 5px;
+         background-color: #00bfb270;
+       }
+       .produto div#item div#direito{
+         width: 22%;
+         float: right;
+         margin-right: 2px;
+         color: black;
+         text-align: right;
+       }
+       /* REDIMENSIONAMETO */
        @media screen and (max-width: 790px) {
+        .produto div#item{
+          margin: 2% 2.5% 2% 2.5%;
+        }
         
        }
      </style>
@@ -59,10 +97,24 @@
     <section id="home">
         <div class="produto">
           <div id="title"><h2> Carinho</h2></div>
-          <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed ullam, velit molestias ut nam voluptatem pariatur, accusantium similique eligendi beatae expedita ipsam recusandae illum, cum repudiandae obcaecati hic. Magnam, sint.</p>
+          <!-- Primeiro Objeto -->
+          <div id="item">
+            <img src="" alt="Imagen Erro"> Blog Modelo Clasico
+            <div id="direito">
+              R$:00,00
+            </div>
           </div>
-          
+          <!-- Segundo Objeto -->
+          <div id="item">
+            <img src="" alt="Imagen Erro"> Blog Modelo Clasico
+            <div id="direito">
+                R$:00,00
+            </div>
+          </div>
+          <!-- Finalizar a compra -->
+          <div id="fim">Total: 
+            <br><button>Continuar a compra</button>
+          </div>
         </div>
     </section>
 
