@@ -10,17 +10,39 @@
      <link rel="stylesheet" href="css/main.css">
      <style>
        .log{
-        margin: auto;
+         margin: auto;
          margin-top: 1%;
          width: 80%;
          border-radius: 5px;
+         padding: 5px;
          text-align: center;
          background-color: #00bfb3;
-     }
+         font-weight: bold;
+       }
+       .log input{
+         width: 30%;
+         height: 40px;
+         padding: 5px;
+         margin-bottom: 5px;
+         border-radius: 5px;
+         border: 1px solid transparent;
+       }
+       .log input#logar{
+         color: black;
+         font-size: 20px;
+         font-weight: bold;
+         background-color: #037971;
+       }
+       .log input#logar:hover{
+         font-size: 22px;
+         box-shadow: 5px 5px #04857cc0;
+       }
        /* REDIMENSIONAMENTO */
        @media screen and (max-width: 790px) {
         .log{
           margin-top: 1%;
+        }.log input{
+          width: 80%;
         }
        }
      </style>
@@ -47,7 +69,13 @@
     <!-- HOME -->
     <section id="home">
       <div class="log">
-        <p>E-mail ou Usuario</p>
+        <form action="">
+          <p>E-mail ou Usuário:<br>
+          <input type="text" placeholder="E-mail/Usuário" name="user" id="user"><br>
+          Senha:<br>
+          <input type="password" placeholder="Senha" name="passw" id="passw"><br>
+          <input type="submit" value="Entrar" id="logar"></p>
+          </form>
       </div>
     </section>
 
