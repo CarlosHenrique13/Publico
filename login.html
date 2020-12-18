@@ -25,17 +25,34 @@
          padding: 5px;
          margin-bottom: 5px;
          border-radius: 5px;
-         border: 1px solid transparent;
+         border: solid 2px #04857cc0;
+         font-size: 18px;
+         font-weight: bold;
+         font-family: 'Source Sans Pro', sans-serif;
+       }
+       .log input::placeholder{
+         color: black;
+         font-weight: bold;
+         font-family: 'Source Sans Pro', sans-serif;
+       }
+       .log input:focus{
+        outline: none; 
+        border: solid 3px #04857cc0;
+        box-shadow: 4px 4px #04857cc0;
+
+       }
+       .log input:hover{
+        box-shadow: 4px 4px #04857cc0;
        }
        .log input#logar{
-         color: black;
+         color: white;
          font-size: 20px;
          font-weight: bold;
+         border: 2px solid #00bfb270;
          background-color: #037971;
        }
        .log input#logar:hover{
          font-size: 22px;
-         box-shadow: 5px 5px #04857cc0;
        }
        /* REDIMENSIONAMENTO */
        @media screen and (max-width: 790px) {
