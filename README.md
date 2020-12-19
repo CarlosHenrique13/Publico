@@ -4,3 +4,8 @@
 
 Criador: Carlos Henrique A. dos Santos<br>
 Data de Atualização: 19/12/2020
+
+## Loja Virtual
+  HTML: **HTML5**<br>
+	CSS: **CSS3**<br>
+	Este site e um modelo de loja virtual feito em HTML5 e CSS3, ele possuir outros  modelos de site porque ele e um site de vender sites.
