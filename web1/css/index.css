@@ -6,8 +6,9 @@ body{
 div#corpo{
     margin: auto;
     padding: 10px;
+    height: 100%;
     background-color:white;
-    width: 900px;
+    width: 100%;
     border-radius: 10px;
     text-align: center;
     box-shadow: 5px 5px 10px rgb(0, 0, 0.5);
@@ -23,12 +24,14 @@ nav#menur{
 .menu{
     position: relative;
     list-style:none; 
-    float: left; 
+    float: left;
     margin: 2px;
+    
 }
 .menu li{
     position: relative; 
-    float: left; 
+    float: left;
+    margin: auto; 
     border-right:1px solid black; 
 }
 .menu li a{
@@ -83,7 +86,7 @@ a:hover{
 
 /* Divição da tela Lado Esquerdo*/
 section#esquerda{
-    width: 570px;
+    width: 60%;
     float: left;
     text-align: center;
     padding: 5px;
@@ -119,7 +122,7 @@ div#jar{
 /* Divição da tela Lado Direito*/
 aside#direita{
     margin-top: -85px;
-    width: 300px;
+    width: 30%;
     float: right;
     text-align: center;
     padding: 5px;
@@ -151,4 +154,7 @@ div#inf aside{
     width: 280px;
     margin-left: 320px;
     margin-top: -190px;
+}
+@media screen and (max-width: 790px){
+    
 }
