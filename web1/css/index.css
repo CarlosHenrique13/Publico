@@ -141,6 +141,18 @@ div#download{
     padding: 10px;
     box-shadow: 3px 3px 10px rgb(0, 0, 0.5);
 }
+@media screen and (max-width: 790px){
+    section#esquerda{
+        margin: auto;
+        float: none;
+        width: 100%;
+    }aside#direita{
+        float: none;
+        margin: auto;
+        width: 100%;
+    }    
+}
+
 div#inf {
     width: 600px;
     margin: auto;
@@ -154,7 +166,4 @@ div#inf aside{
     width: 280px;
     margin-left: 320px;
     margin-top: -190px;
-}
-@media screen and (max-width: 790px){
-    
 }
