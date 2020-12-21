@@ -1,14 +1,15 @@
 body{
     background-color: #eeeeee;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
 }
 /* Tela */
 div#corpo{
     margin: auto;
     padding: 10px;
     height: 100%;
-    background-color:white;
     width: 100%;
+    background-color:white;
     border-radius: 10px;
     text-align: center;
     box-shadow: 5px 5px 10px rgb(0, 0, 0.5);
@@ -154,16 +155,16 @@ div#download{
 }
 
 div#inf {
-    width: 600px;
+    width: 100%;
     margin: auto;
 }
 div#inf section{
-    width: 300px;
+    width: 50%;
     text-align: justify;
 }
 div#inf aside{
     position: relative;
-    width: 280px;
-    margin-left: 320px;
-    margin-top: -190px;
+    width: 50%;
+    /*margin-left: 320px;
+    margin-top: -190px;*/
 }
