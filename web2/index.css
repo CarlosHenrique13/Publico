@@ -5,11 +5,10 @@ body {
     color: #f7f7f7
 }
 div#corpo {
-    width: 900px;
+    width: 100%;
     margin: auto;
-    padding: 10px;
-    float: center;
-    text-align: justify;
+    padding: 1%;
+    text-align: left;
     background-color: #001011;
     font-weight: bold;
     size: 20px;
@@ -54,16 +53,15 @@ div#corpo {
 }
 /* Divisoes */ 
 div#Esquerda {
-    width: 200px;
+    width: 19%;
     float: left;
-    margin: auto;
     padding: 5px;
     border-radius: 5px;
     box-shadow: 1px 1px 3px rgb(0,0,0,0.5);
 }
 div#Direita {
-    width: 670px;
-    float: right;
+    width: 79%;
+    float: left;
     padding: 5px;
 }
 /* Validos para todo o codigo */
@@ -94,9 +92,9 @@ a:hover{
 /* Rodape */
 footer {
     margin-block-end: 1px;
-    width: 880px;
+    width: 90%;
     background-color: #031e204f;
-    padding: 10px;
+    padding: 1%px;
     border-radius: 5px;
     box-shadow: 1px 1px 3px rgb(0,0,0,0.5);
 }
