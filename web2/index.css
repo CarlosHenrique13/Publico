@@ -88,6 +88,16 @@ a {
 a:hover{
     font-weight: bolder;
 }
+
+
+div#Finalizasao p{
+    text-align: center;
+}
+span{
+    color: #6d9f71;
+    font-weight: bolder;
+}
+
 footer {
     margin-block-end: 1px;
     width: 880px;
@@ -97,10 +107,10 @@ footer {
     box-shadow: 1px 1px 3px rgb(0,0,0,0.5);
     float: right;
 }
-
 footer div#Contato {
     float: left;
 }
+
 /* Classes */
 .Rodape {
     text-align: center;
