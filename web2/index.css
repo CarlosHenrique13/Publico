@@ -2,6 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     background-color: #eeeeee;
+    color: #f7f7f7
 }
 div#corpo {
     width: 900px;
@@ -9,7 +10,7 @@ div#corpo {
     padding: 10px;
     float: center;
     text-align: justify;
-    background-image: url("img/fundo.jfif");
+    background-color: #001011;
     font-weight: bold;
     size: 20px;
     box-shadow: 1px 1px 3px rgb(0,0,0,0.5);
@@ -23,17 +24,19 @@ div#corpo {
 .menu li{
     position: relative; 
     float: left; 
-    text-decoration: gray ;
-    border-right:1px solid black; 
+    text-decoration: white ;
+    border-right:1px solid #6d9f71; 
 }
 .menu li a{
-    color:gray; 
+    color: #145504be;
+    font-weight: bold;
+    text-shadow: 2px 2px #6d9f71; 
     text-decoration:none; 
     padding: 5px; 
     display:block;
 } 
 .menu li a:hover{
-    color: rgb(63, 60, 60); 
+    color: #6d9f71; 
     text-shadow:1px 1px 5px gray; 
 }
 .menu li  ul{
