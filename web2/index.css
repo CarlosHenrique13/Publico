@@ -29,7 +29,7 @@ div#corpo {
 }
 .menu li a{
     color: #145504be;
-    font-weight: bold;
+    font-weight: bolder;
     text-shadow: 2px 2px #6d9f71; 
     text-decoration:none; 
     padding: 5px; 
@@ -37,7 +37,7 @@ div#corpo {
 } 
 .menu li a:hover{
     color: #6d9f71; 
-    text-shadow:1px 1px 5px gray; 
+    text-shadow:1px 1px 5px g#6d9f71; 
 }
 .menu li  ul{
     position: absolute; 
@@ -71,7 +71,8 @@ h1 {
     text-align: center;
 }
 h2 {
-    color: rgb(51, 47, 47);
+    color: #145504be;
+    text-shadow: 2px 2px #6d9f71; 
 }
 p {
     text-align: justify;
@@ -81,14 +82,18 @@ img {
     height: 100px;
 }
 a {
-    color: rgb(255, 255, 255);
+    color: #6F5E53;
+    text-decoration: none;
+}
+a:hover{
+    font-weight: bolder;
 }
 footer {
     margin-block-end: 1px;
-    border-bottom: black 1px solid;
     width: 880px;
-    background-color: rgba(189, 189, 189, 0.329);
+    background-color: #031e204f;
     padding: 10px;
+    border-radius: 5px;
     box-shadow: 1px 1px 3px rgb(0,0,0,0.5);
     float: right;
 }
@@ -105,6 +110,6 @@ footer div#Contato {
 }
 .Rodape caption {
     size: 20px;
-    color: purple;
+    color: #6D9F71;
     font-weight: bolder;
 }
