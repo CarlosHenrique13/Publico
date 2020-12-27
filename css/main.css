@@ -63,7 +63,10 @@ h2{
 }
 
 
-
+iframe{
+    overflow:hidden;
+    width: 100%;
+}
 /* =====================
     Redimensionamento
    =====================
