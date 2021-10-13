@@ -9,12 +9,11 @@
      <link rel="stylesheet" href="css/menu.css">
      <link rel="stylesheet" href="css/main.css">
      <style>
+      
        section#home{
         width: 100%;
-        border-radius: 5px;
         background-color: white;
         margin: auto;
-        margin-top: 9%;
         /* PRODUTO */
        }.produto{
          position: relative;
@@ -22,15 +21,15 @@
          max-width: 1500px;
          height: 1000px;
          color: black;
-         margin: auto;
+         float: left;
          background-color: white;
        }
        /* BARRA DE TITULO*/
        .produto div#title{
          color: white;
-         margin-top: -9%;
          height: 10%;
-         padding: 2px;
+         padding-top: 1px;
+         padding-left: 2%;
          text-align: left;
          background-color: #00bfb3;
        }
@@ -92,7 +91,9 @@
        /* REDIMENSIONAMETO */
        @media screen and (max-width: 790px) {
         .produto div#item{
-          margin: 2% 2.5% 2% 2.5%;
+          font-size: 150%;
+        }.produto div#item img{
+          width: 30%;
         }button#btn{
           width: 60%;
         }button#btn:hover{
@@ -110,7 +111,7 @@
      
     <!-- Menu -->
     <header>
-        <a href="#home" class="logo" data-scroll>Minha Loja</a>
+        <a href="./index.html" class="logo" data-scroll>Minha Loja</a>
         <nav class="nav-collapse">
           <ul>            
             <li class="menu-item"><a href="index.html" data-scroll>Home</a></li>
@@ -148,7 +149,7 @@
 
     <!-- Folder -->
     <footer>
-        <p>&copy;Carlos Henrique A. dos Santos<br>17/08/2020 a 18/12/2020</p>
+        <p>&copy;Carlos Henrique A. dos Santos<br>17/08/2020 a 13/10/2021</p>
       </footer>
     
   

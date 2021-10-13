@@ -29,9 +29,10 @@ h2{
 
 .item{
     width: 18%;
+    height: 400px;
     padding: 2%;
     margin: 1.3%;
-    position: relative;
+    display: inline-block;
     text-align: center;
     border-radius: 5px;
     background-color: #03B5AA;
@@ -62,11 +63,6 @@ h2{
     box-shadow: 3px 3px #037971;
 }
 
-
-iframe{
-    overflow:hidden;
-    width: 100%;
-}
 /* =====================
     Redimensionamento
    =====================
