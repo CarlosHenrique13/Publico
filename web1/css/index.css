@@ -8,7 +8,7 @@ div#corpo{
     margin: auto;
     padding: 10px;
     height: 100%;
-    width: 100%;
+    width: 95%;
     background-color:white;
     border-radius: 10px;
     text-align: center;
@@ -90,7 +90,7 @@ section#esquerda{
     width: 60%;
     float: left;
     text-align: center;
-    padding: 5px;
+    
 }
 /* Sobre Python; Lado Esquerdo*/
 div#py{
@@ -126,7 +126,7 @@ aside#direita{
     width: 30%;
     float: right;
     text-align: center;
-    padding: 5px;
+    
 }
 /* Area dos projetos; Lado Direito*/
 div#project{
